@@ -1,0 +1,13 @@
+.env
+.env.*
+dist/
+out/
+src/
+.repo/
+ccache/
+rollback/
+__pycache__/
+*.key
+*.pk8
+*.pem
+*.img

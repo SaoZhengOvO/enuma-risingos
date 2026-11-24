@@ -1,0 +1,85 @@
+
+=== build start 2026-11-24T01:30:34+00:00 ===
+Resource limits: memory=7516192768 swap=0 GOGC=30 GOMEMLIMIT=5GiB GOMAXPROCS=2
+Google Core device patch already applied
+Set cache size limit to 30.0 GB
+including vendor/microg/vendorsetup.sh
+Fetching microg files
+BUILD_USERNAME=android-build
+BUILD_HOSTNAME=a0704c8642e8
+Looking for dependencies in device/xiaomi/enuma
+device/xiaomi/enuma has no additional dependencies.
+
+============================================
+LINEAGE_DISPLAY_VERSION=RisingOS-9-CORE-COMMUNITY-enuma
+RISING_BUILDTYPE=COMMUNITY
+RISING_CODENAME=elefthería
+RISING_FLAVOR=CinnamonBun
+RISING_PACKAGE_TYPE=CORE
+RISING_VERSION=9
+RISING_BUILD_DATE=261124-0131
+LINEAGE_BUILD=enuma
+PRODUCT_SOURCE_ROOT_DIRS=-kernel/platform -prebuilts/misc/protobuf_vendorcompat
+TARGET_PRODUCT=lineage_enuma
+TARGET_BUILD_VARIANT=userdebug
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=generic
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv8-a
+TARGET_2ND_CPU_VARIANT=generic
+WITH_GMS=true
+BUILD_ID=CP2A.260605.016
+PLATFORM_SECURITY_PATCH=2026-11-01
+OUT_DIR=out
+PRODUCT_SOONG_NAMESPACES=vendor/rising/properties vendor/rising/packages vendor/rising/version vendor/rising/overlays vendor/rising/prebuilts vendor/rising/common vendor/rising/vars vendor/bcr device/xiaomi/sm8250-common hardware/google/interfaces hardware/google/pixel/power-libperfmgr hardware/lineage/interfaces/power-libperfmgr hardware/qcom-caf/common/libqti-perfd-client hardware/xiaomi vendor/qcom/opensource/usb/etc vendor/xiaomi/sm8250-common device/xiaomi/enuma vendor/xiaomi/enuma hardware/qcom-caf/sm8250 hardware/qcom-caf/bootctrl vendor/qcom/opensource/commonsys/display vendor/qcom/opensource/commonsys-intf/display vendor/qcom/opensource/interfaces/qacs/ambientdatacapture vendor/qcom/opensource/display vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um vendor/qcom/opensource/dataservices hardware/qcom-caf/thermal-legacy-um hardware/qcom-caf/wlan hardware/qcom-caf/wlan/qcwcn
+DEFAULT_SYSTEM_DEV_CERTIFICATE=build/make/target/product/security/testkey
+SOONG_NINJA=ninja
+SOONG_ONLY=false
+SOONG_INCREMENTAL_ANALYSIS=false
+============================================
+Preflight passed: enuma/CORE/A-B, build jobs=1
+01:31:27 ************************************************************
+01:31:27 You are building on a machine with 15.5GB of RAM
+01:31:27 
+01:31:27 This is a modified instruction:
+01:31:27 There is a workaround applied for lower system machines (<16GB),
+01:31:27 we suggest increasing swap size to 1.5x to resolve most OOM errors.
+01:31:27 Original warning from AOSP:
+01:31:27 The minimum required amount of free memory is around 16GB,
+01:31:27 and even with that, some configurations may not work.
+01:31:27 
+01:31:27 If you run into segfaults or other errors, try reducing your
+01:31:27 -j value.
+01:31:27 ************************************************************
+Running product configuration...
+============================================
+LINEAGE_DISPLAY_VERSION=RisingOS-9-CORE-COMMUNITY-enuma
+RISING_BUILDTYPE=COMMUNITY
+RISING_CODENAME=elefthería
+RISING_FLAVOR=CinnamonBun
+RISING_PACKAGE_TYPE=CORE
+RISING_VERSION=9
+RISING_BUILD_DATE=261124-0131
+LINEAGE_BUILD=enuma
+PRODUCT_SOURCE_ROOT_DIRS=-kernel/platform -prebuilts/misc/protobuf_vendorcompat
+TARGET_PRODUCT=lineage_enuma
+TARGET_BUILD_VARIANT=userdebug
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=generic
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv8-a
+TARGET_2ND_CPU_VARIANT=generic
+WITH_GMS=true
+BUILD_ID=CP2A.260605.016
+PLATFORM_SECURITY_PATCH=2026-11-01
+OUT_DIR=out
+PRODUCT_SOONG_NAMESPACES=vendor/rising/properties vendor/rising/packages vendor/rising/version vendor/rising/overlays vendor/rising/prebuilts vendor/rising/common vendor/rising/vars vendor/bcr device/xiaomi/sm8250-common hardware/google/interfaces hardware/google/pixel/power-libperfmgr hardware/lineage/interfaces/power-libperfmgr hardware/qcom-caf/common/libqti-perfd-client hardware/xiaomi vendor/qcom/opensource/usb/etc vendor/xiaomi/sm8250-common device/xiaomi/enuma vendor/xiaomi/enuma hardware/qcom-caf/sm8250 hardware/qcom-caf/bootctrl vendor/qcom/opensource/commonsys/display vendor/qcom/opensource/commonsys-intf/display vendor/qcom/opensource/interfaces/qacs/ambientdatacapture vendor/qcom/opensource/display vendor/qcom/opensource/data-ipa-cfg-mgr-legacy-um vendor/qcom/opensource/dataservices hardware/qcom-caf/thermal-legacy-um hardware/qcom-caf/wlan hardware/qcom-caf/wlan/qcwcn
+DEFAULT_SYSTEM_DEV_CERTIFICATE=build/make/target/product/security/testkey
+SOONG_NINJA=ninja
+SOONG_ONLY=false
+SOONG_INCREMENTAL_ANALYSIS=true
+============================================
+[100% 1/1] bootstrap blueprint
+Running globs...

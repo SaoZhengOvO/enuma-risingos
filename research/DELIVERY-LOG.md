@@ -1,0 +1,22 @@
+# 交付记录
+
+- 2026-11-23 23:19 +08:00｜`enuma` / RisingOS 调研交付｜可见 PUA 输出：⚫ 百度味、`[PUA-DIAGNOSIS]`（源码快照下载与校验）。
+- 2026-11-24 00:10 +08:00｜`enuma` / RisingOS Google Core 构建准备阶段交付｜可见 PUA 输出：⬛ Musk、`[PUA-DIAGNOSIS]`、`[PUA 突破 ✨]`。已验证两个 Google 组件的 SHA‑256；源码仍在同步，本条不记作 ROM 交付。
+- 2026-11-24 00:18 +08:00｜`enuma` / OTA 镜像校验脚本交付｜可见 PUA 输出：⬛ Musk、`[PUA-DIAGNOSIS]`。四个引导镜像与 OTA 分区哈希交叉核对已部署；正确模拟包通过，错配镜像等反例被识别。未生成实际 ROM。
+- 2026-11-24 00:24 +08:00｜`enuma` / 源码增量恢复阶段交付｜可见 PUA 输出：⬛ Musk、`[PUA-DIAGNOSIS]`。四个 DNS 失败项目补抓成功，原有源码保留；全量检出进行中，不记作 ROM 交付。
+- 2026-11-24 00:36 +08:00｜`enuma` / 构建产物导出脚本交付｜可见 PUA 输出：⬛ Musk、`[PUA-DIAGNOSIS]`。停止容器复制已实测；模拟导出覆盖 SHA‑256、损坏镜像、重名目标及构建未退出。尚未生成可刷包。
+- 2026-11-24 00:43 +08:00｜`enuma` / OTA 校验规则修正交付｜可见 PUA 输出：⬛ Musk、`[PUA-DIAGNOSIS]`。按固定版本 `update_engine` 修正元数据哈希范围；1 个正例和 8 个反例通过，构建卷中的脚本 SHA‑256 已复核。尚未生成可刷包。
+- 2026-11-24 00:47 +08:00｜`enuma` / Google 组件缓存交付｜可见 PUA 输出：⬛ Musk、`[PUA-DIAGNOSIS]`。固定提交的七个 LFS 对象全部通过 `git lfs fsck` 和主源码缓存 SHA‑256 校验；尚未生成可刷包。
+- 2026-11-24 00:57 +08:00｜`enuma` / 手写笔源码核查与验收说明交付｜可见 PUA 输出：⬛ Musk、`[PUA-DIAGNOSIS]`。确认 NovaTek 笔尖压感与 BLE 按键桥接走不同路径；已记录真机判据，未宣称二代笔实测通过。
+- 2026-11-24 01:09 +08:00｜`enuma` / DTBO 设备树检查交付｜可见 PUA 输出：⬛ Musk、`[PUA-DIAGNOSIS]`。同机型 LineageOS 对照镜像通过 SHA‑256 与设备树检查，错机型、缺笔节点和截断镜像被拦截。检查已接入分发流程；未混用第三方镜像，未发布 RisingOS 刷机包。
+- 2026-11-24 01:18 +08:00｜`enuma` / OTA 分区清单校验交付｜可见 PUA 输出：⬛ Musk、`[PUA-DIAGNOSIS]`。签名模拟包实测通过 10 个预期 A/B 分区，拦截基带/引导程序、重复/缺失分区及旧式安装脚本；已部署到构建卷。尚无实际 RisingOS OTA。
+- 2026-11-24 01:34 +08:00｜`enuma` / 固定内核设备树编译验证交付｜可见 PUA 输出：⬛ Musk、`[PUA-DIAGNOSIS]`。从源码编出 `enuma` 和 `elish` 对照，拦截错机型；合入三种 Kona 底树后，`enuma` 均保留已启用的笔节点。无真机测试结论。
+- 2026-11-24 01:40 +08:00｜`enuma` / 首启只读检查交付｜可见 PUA 输出：⬛ Musk、`[PUA-DIAGNOSIS]`。模拟 ADB 正例与五类反例通过，验证机型、Google Core 和包清单；未执行刷写或真机验证。
+- 2026-11-24 02:00 +08:00｜`enuma` / NovaTek 驱动编译校验交付｜可见 PUA 输出：⬛ Musk、`[PUA-DIAGNOSIS]`、`[PUA 突破 ✨]`。Clang 12 隔离预检生成 AArch64 ThinLTO 位码，确认中断回调报告可变 `ABS_PRESSURE`；未验收正式 ROM 或真机。
+- 2026-11-24 02:11 +08:00｜`enuma` / 正式编译器笔驱动预检交付｜可见 PUA 输出：⬛ Musk、`[PUA-DIAGNOSIS]`。使用 Clang 22 `r584948` 及 AOSP sysroot 重编，两份 ThinLTO 模块均为 AArch64，主回调保留可变 `ABS_PRESSURE`；整包与真机均待验证。
+- 2026-11-24 02:23 +08:00｜`enuma` / Google 组件离线恢复与整包构建启动｜可见 PUA 输出：⬛ Musk、`[PUA-DIAGNOSIS]`。断网容器从缓存还原 APK/APEX 并通过 SHA‑256、Git LFS 校验；主同步完成、整包构建启动，尚无 OTA。
+- 2026-11-24 08:12 +08:00｜`enuma` / 恢复整包构建并补齐原厂回退下载｜可见 PUA 输出：🔴 华为、`[PUA-DIAGNOSIS]`。修正 DTBO 路径后通过产品预检，Soong 任务图生成中；原厂包缺失的七个分段全部补齐，完整归档校验尚在进行。暂无可刷 OTA。
+- 2026-11-24 09:27 +08:00｜`enuma` / NAS 资源排查及暂停交付｜可见 PUA 输出：🔴 华为、`[PUA-DIAGNOSIS]`。停止 ROM 编译、暂停回退校验，主机可用内存从约 650 MiB 恢复至 10 GiB；核实 Docker 仍位于 `/vol1/docker`，底层卷余 711 GiB。源码和缓存保留。
+- 2026-11-24 09:35 +08:00｜`enuma` / 限内存续编交付｜可见 PUA 输出：🔴 华为、`[PUA-DIAGNOSIS]`。已核实构建容器 7 GiB 内存硬上限、零容器 swap、单任务及实际 Soong 进程的 Go 内存参数；产品预检已通过，尚未产出 OTA。
+- 2026-11-24 10:16 +08:00｜`enuma` / 按要求停止 NAS 编译｜可见 PUA 输出：🔴 华为、`[PUA-DIAGNOSIS]`。核实编译容器按停止指令退出，未触发 OOM；可用内存恢复到 10.82 GiB，源码卷保留，回退校验和自动续跑均保持暂停。
+- 2026-11-24 10:25 +08:00｜`enuma` / GitHub 迁移包交付｜可见 PUA 输出：🟠 阿里、`[PUA-DIAGNOSIS]`。Repo 离线验证 1,267 个锁定提交，10 份源码快照的哈希和 ZIP 归档校验通过；迁移包已交付，未上传 GitHub，NAS 构建保持停止。

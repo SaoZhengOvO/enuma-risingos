@@ -1,0 +1,8 @@
+Endpoint (rising)=https://gitea.com/Evolution-X/blobs.git/info/lfs (auth=none)
+Checking out LFS objects: 100% (2/2), 250 MB | 0 B/s, done.
+product/packages/privileged_apps/Phonesky/Phonesky.apk: OK
+apex/com.google.android.gmssystem.prodvic.apex: OK
+103896900 product/packages/privileged_apps/Phonesky/Phonesky.apk
+146546688 apex/com.google.android.gmssystem.prodvic.apex
+Git LFS fsck OK
+PASS: offline cache hydration available; shared main project untouched.

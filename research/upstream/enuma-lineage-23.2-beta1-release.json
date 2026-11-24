@@ -1,0 +1,40 @@
+{
+  "source": "https://api.github.com/repos/leodroid99/LineageOS-23.2-enuma/releases/tags/v23.2-enuma-beta1",
+  "html_url": "https://github.com/leodroid99/LineageOS-23.2-enuma/releases/tag/v23.2-enuma-beta1",
+  "tag_name": "v23.2-enuma-beta1",
+  "published_at": "2026-09-13T02:16:54Z",
+  "prerelease": true,
+  "body": "# LineageOS 23.2 Global Beta 1 for enuma\n\nUnofficial Android 16 binary port for the Xiaomi Pad 5 Pro 5G, maintained by **leodroid99**.\n\n## Confirmed\n\n- Exact v12 OTA installed and booted on a physical `enuma` on slot B\n- SELinux Enforcing\n- LG U+ SIM detection and LTE data\n- LG U+ MMS reception\n- LG U+ calling in user testing\n\n## Included for wider testing\n\n- Global APN database with 4,263 entries\n- SKT, KT, and LG U+ APN/IMS definitions\n- Cellular settings, Lineage Dialer, and Lineage Messaging\n- LineageOS-branded recovery\n\n## Important\n\nThis is a Vanilla beta signed with Android test keys. Google Apps and Magisk are not bundled. SKT/KT physical-SIM operation and worldwide carrier VoLTE remain unverified. Verify `SHA256SUMS`, keep the bootloader unlocked, and do not install this release on any device other than `enuma`.\n\nRead the repository documentation before flashing. Full upstream attribution is in `CREDITS.md`.\n",
+  "assets": [
+    {
+      "name": "boot.img",
+      "size": 201326592,
+      "digest": "sha256:0ef2f9f590404b2abb730b83c619228f347828c6b3c72f4782458187b28a2a67",
+      "browser_download_url": "https://github.com/leodroid99/LineageOS-23.2-enuma/releases/download/v23.2-enuma-beta1/boot.img"
+    },
+    {
+      "name": "lineage-23.2-20260913-UNOFFICIAL-enuma-global-beta-by-leodroid99-v12.zip",
+      "size": 1418840383,
+      "digest": "sha256:3f22be577a12f8622e9e53129cdef94575254137e99eec653b782143a70b83de",
+      "browser_download_url": "https://github.com/leodroid99/LineageOS-23.2-enuma/releases/download/v23.2-enuma-beta1/lineage-23.2-20260913-UNOFFICIAL-enuma-global-beta-by-leodroid99-v12.zip"
+    },
+    {
+      "name": "SHA256SUMS",
+      "size": 296,
+      "digest": "sha256:992270a0b846556641a4584a3c898ac3af80a959566b1944f60d9843b40d4712",
+      "browser_download_url": "https://github.com/leodroid99/LineageOS-23.2-enuma/releases/download/v23.2-enuma-beta1/SHA256SUMS"
+    },
+    {
+      "name": "vendor_boot.img",
+      "size": 100663296,
+      "digest": "sha256:eb61fd32b56a0e1510df98cc215f42a8688a5c7b54be27f71413de088987fa4c",
+      "browser_download_url": "https://github.com/leodroid99/LineageOS-23.2-enuma/releases/download/v23.2-enuma-beta1/vendor_boot.img"
+    },
+    {
+      "name": "verify-ota-v12.txt",
+      "size": 3698,
+      "digest": "sha256:b49f2aa4e984e96dcce4c590315c3b83fcd2e9e764b3e253cc693e0e6d422c22",
+      "browser_download_url": "https://github.com/leodroid99/LineageOS-23.2-enuma/releases/download/v23.2-enuma-beta1/verify-ota-v12.txt"
+    }
+  ]
+}

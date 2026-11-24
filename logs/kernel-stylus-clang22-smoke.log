@@ -1,0 +1,18 @@
+out=/build/preflight/kernel-stylus-clang22.Lp9bM3HE
+Android (14488419, +pgo, +bolt, +lto, +mlgo, based on r584948) clang version 22.0.0 (https://android.googlesource.com/toolchain/llvm-project 2d65e4108033380e6fe8e08b1f1826cd2bfb0c99)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /build/src/prebuilts/clang/host/linux-x86/clang-r584948/bin
+CONFIG_TOUCHSCREEN_NT36523_HOSTDL_SPI=y
+CONFIG_TOUCHSCREEN_XIAOMI_TOUCHFEATURE=y
+CONFIG_MACH_XIAOMI_ENUMA=y
+/build/preflight/kernel-stylus-clang22.Lp9bM3HE/drivers/input/touchscreen/nt36523/nt36xxx.o: LLVM IR bitcode
+Traceback (most recent call last):
+  File "<stdin>", line 14, in <module>
+AssertionError: no variable ABS_PRESSURE call in the driver interrupt handler
+ARM64 ThinLTO modules: aarch64-unknown-linux-gnu, aarch64-unknown-linux-gnu
+stylus.ll.0:5374 nvt_ts_work_func.f734f950a1efcf9e11e345d57981b6b6: EV_ABS=3 ABS_PRESSURE=24, variable=%604
+call void @input_event(ptr noundef %630, i32 noundef 3, i32 noundef 24, i32 noundef range(i32 -128, 65536) %604) #21, !dbg !9820
+fa077f0563da9d95c6284b5d7e8a18daf995c7647d72f2e41d1103aab896cf1c /build/preflight/kernel-stylus-clang22.Lp9bM3HE/.config
+f6a6022191db343feaaaec1472d7a62b5542a75eebf5294814edd478d7d2f508 /build/preflight/kernel-stylus-clang22.Lp9bM3HE/drivers/input/touchscreen/nt36523/nt36xxx.o
+PASS: selected Clang 22 compiled enuma NovaTek driver and preserved variable ABS_PRESSURE reporting; no final kernel or hardware result.

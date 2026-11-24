@@ -1,0 +1,52 @@
+{
+  "source": "https://api.github.com/repos/xiliahz/device_xiaomi_enuma/releases/tags/Lunaris-AOSP",
+  "html_url": "https://github.com/xiliahz/device_xiaomi_enuma/releases/tag/Lunaris-AOSP",
+  "tag_name": "Lunaris-AOSP",
+  "published_at": "2025-12-12T07:22:31Z",
+  "prerelease": false,
+  "body": "By github:Xiliahz\r\nTelegram :https://t.me/xiliahz\r\nQQ:1634033479\r\nChangeLog\r\n\r\nAdded Chinese translation for custom settings based on the source code.\r\n\r\nSource code updated to 2025/12/10. The Wi-Fi settings interface in the VA build is slightly offset; it's recommended to skip this step and then configure it. If you mind, please do not use it.\r\n\r\nFixed an issue with the display of device information.\r\n\r\nIf there are any other issues, please let me know.",
+  "assets": [
+    {
+      "name": "boot.img",
+      "size": 201326592,
+      "digest": "sha256:6c6a4828836ddff62382f8d20be5b840a8cafbaff57f799a5f515ddd8e7fc526",
+      "browser_download_url": "https://github.com/xiliahz/device_xiaomi_enuma/releases/download/Lunaris-AOSP/boot.img"
+    },
+    {
+      "name": "dtbo.img",
+      "size": 33554432,
+      "digest": "sha256:a5816cb346bfd3694b1c0bbe3cb0e389737455d021d2d48b599fc95d32e71b4c",
+      "browser_download_url": "https://github.com/xiliahz/device_xiaomi_enuma/releases/download/Lunaris-AOSP/dtbo.img"
+    },
+    {
+      "name": "kernel",
+      "size": 49080344,
+      "digest": "sha256:c8506adc74abf95fabfd608672352efd297f259bcccf51ac54eb5740408e0c8e",
+      "browser_download_url": "https://github.com/xiliahz/device_xiaomi_enuma/releases/download/Lunaris-AOSP/kernel"
+    },
+    {
+      "name": "Lunaris-AOSP-enuma-Community-3.6-Vanilla-2025121202.zip",
+      "size": 1589640528,
+      "digest": "sha256:93e25ec597a649d8e171d6901b68d5adfcaf749e2f8a2efd029ed5d7a529a7d4",
+      "browser_download_url": "https://github.com/xiliahz/device_xiaomi_enuma/releases/download/Lunaris-AOSP/Lunaris-AOSP-enuma-Community-3.6-Vanilla-2025121202.zip"
+    },
+    {
+      "name": "Lunaris-AOSP-enuma-Community-3.6-Vanilla-2025121202.zip.sha256sum",
+      "size": 122,
+      "digest": "sha256:ef3dc6dc444faa06b6dffc61fdd88770beab926909f665900f9343112153abe6",
+      "browser_download_url": "https://github.com/xiliahz/device_xiaomi_enuma/releases/download/Lunaris-AOSP/Lunaris-AOSP-enuma-Community-3.6-Vanilla-2025121202.zip.sha256sum"
+    },
+    {
+      "name": "odm.img",
+      "size": 724992,
+      "digest": "sha256:0fa64061cfeff1a54a543da18b06cdca242590e106d5a7edfb51bbcb483e1293",
+      "browser_download_url": "https://github.com/xiliahz/device_xiaomi_enuma/releases/download/Lunaris-AOSP/odm.img"
+    },
+    {
+      "name": "vendor_boot.img",
+      "size": 100663296,
+      "digest": "sha256:5733a26e7f60ef645a5a621dcf685f4a05ebfb9bdae242a4527acc7f8b8ff6d6",
+      "browser_download_url": "https://github.com/xiliahz/device_xiaomi_enuma/releases/download/Lunaris-AOSP/vendor_boot.img"
+    }
+  ]
+}

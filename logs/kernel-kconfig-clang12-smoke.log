@@ -1,0 +1,214 @@
+Android (7284624, based on r416183b) clang version 12.0.5 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /build/src/prebuilts/clang/kernel/linux-x86/clang-r416183b/bin
+
+=== merge debugfs.config ===
+Using /build/preflight/kernel-kconfig-clang12.g9VV2CG6/.config as base
+Merging /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/debugfs.config
+Value of CONFIG_MSM_IDLE_STATS is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/debugfs.config:
+Previous value: # CONFIG_MSM_IDLE_STATS is not set
+New value: CONFIG_MSM_IDLE_STATS=n
+
+Value of CONFIG_PAGE_EXTENSION is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/debugfs.config:
+Previous value: # CONFIG_PAGE_EXTENSION is not set
+New value: CONFIG_PAGE_EXTENSION=n
+
+Value of CONFIG_PAGE_OWNER is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/debugfs.config:
+Previous value: # CONFIG_PAGE_OWNER is not set
+New value: CONFIG_PAGE_OWNER=n
+
+Value of CONFIG_DEBUG_FS is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/debugfs.config:
+Previous value: # CONFIG_DEBUG_FS is not set
+New value: CONFIG_DEBUG_FS=n
+
+#
+# merged configuration written to /build/preflight/kernel-kconfig-clang12.g9VV2CG6/.config (needs make)
+#
+
+=== merge xiaomi/sm8250-common.config ===
+Using /build/preflight/kernel-kconfig-clang12.g9VV2CG6/.config as base
+Merging /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config
+Value of CONFIG_QCA_CLD_WLAN is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_QCA_CLD_WLAN is not set
+New value: CONFIG_QCA_CLD_WLAN=y
+
+Value of CONFIG_DEBUG_FS is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_DEBUG_FS is not set
+New value: CONFIG_DEBUG_FS=n
+
+Value of CONFIG_EXFAT_FS is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_EXFAT_FS is not set
+New value: CONFIG_EXFAT_FS=y
+
+Value of CONFIG_PSTORE is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_PSTORE is not set
+New value: CONFIG_PSTORE=y
+
+Value of CONFIG_CMDLINE is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: CONFIG_CMDLINE="cgroup_disable=pressure"
+New value: CONFIG_CMDLINE="cgroup_disable=pressure ramoops_memreserve=4M"
+
+Value of CONFIG_BLK_WBT is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_BLK_WBT is not set
+New value: CONFIG_BLK_WBT=y
+
+Value of CONFIG_MTD is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_MTD is not set
+New value: CONFIG_MTD=y
+
+Value of CONFIG_BACKLIGHT_KTZ8866 is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_BACKLIGHT_KTZ8866 is not set
+New value: CONFIG_BACKLIGHT_KTZ8866=y
+
+Value of CONFIG_BACKLIGHT_DUALKTZ8866 is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_BACKLIGHT_DUALKTZ8866 is not set
+New value: CONFIG_BACKLIGHT_DUALKTZ8866=y
+
+Value of CONFIG_MOTOR_DRV8846 is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_MOTOR_DRV8846 is not set
+New value: CONFIG_MOTOR_DRV8846=y
+
+Value of CONFIG_AIROHA_GPS is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_AIROHA_GPS is not set
+New value: CONFIG_AIROHA_GPS=y
+
+Value of CONFIG_HALL_AKM09970 is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_HALL_AKM09970 is not set
+New value: CONFIG_HALL_AKM09970=y
+
+Value of CONFIG_ION_CAMERA_HEAP is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_ION_CAMERA_HEAP is not set
+New value: CONFIG_ION_CAMERA_HEAP=y
+
+Value of CONFIG_RC_CORE is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_RC_CORE is not set
+New value: CONFIG_RC_CORE=y
+
+Value of CONFIG_INPUT_XIAOMI_KEYBOARD is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_INPUT_XIAOMI_KEYBOARD is not set
+New value: CONFIG_INPUT_XIAOMI_KEYBOARD=y
+
+Value of CONFIG_KEYBOARD_NANO_8030 is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_KEYBOARD_NANO_8030 is not set
+New value: CONFIG_KEYBOARD_NANO_8030=y
+
+Value of CONFIG_LEDS_AW2015 is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_LEDS_AW2015 is not set
+New value: CONFIG_LEDS_AW2015=y
+
+Value of CONFIG_FRAME_WARN is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: CONFIG_FRAME_WARN=2048
+New value: CONFIG_FRAME_WARN=4096
+
+Value of CONFIG_SMB1355_SLAVE_CHARGER is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: CONFIG_SMB1355_SLAVE_CHARGER=y
+New value: CONFIG_SMB1355_SLAVE_CHARGER=n
+
+Value of CONFIG_SMB1390_CHARGE_PUMP_PSY is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: CONFIG_SMB1390_CHARGE_PUMP_PSY=y
+New value: CONFIG_SMB1390_CHARGE_PUMP_PSY=n
+
+Value of CONFIG_SMB1398_CHARGER is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_SMB1398_CHARGER is not set
+New value: CONFIG_SMB1398_CHARGER=n
+
+Value of CONFIG_I2C_RETRY is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_I2C_RETRY is not set
+New value: CONFIG_I2C_RETRY=y
+
+Value of CONFIG_REGULATOR_PM8008 is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_REGULATOR_PM8008 is not set
+New value: CONFIG_REGULATOR_PM8008=y
+
+Value of CONFIG_REGULATOR_QCOM_RPMH is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_REGULATOR_QCOM_RPMH is not set
+New value: CONFIG_REGULATOR_QCOM_RPMH=y
+
+Value of CONFIG_TOUCHSCREEN_FTS is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: CONFIG_TOUCHSCREEN_FTS=y
+New value: CONFIG_TOUCHSCREEN_FTS=n
+
+Value of CONFIG_TOUCHSCREEN_SYNAPTICS_DSX is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: CONFIG_TOUCHSCREEN_SYNAPTICS_DSX=y
+New value: CONFIG_TOUCHSCREEN_SYNAPTICS_DSX=n
+
+Value of CONFIG_TOUCHSCREEN_SYNAPTICS_TCM is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: CONFIG_TOUCHSCREEN_SYNAPTICS_TCM=y
+New value: CONFIG_TOUCHSCREEN_SYNAPTICS_TCM=n
+
+Value of CONFIG_TOUCHSCREEN_ST is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: CONFIG_TOUCHSCREEN_ST=y
+New value: CONFIG_TOUCHSCREEN_ST=n
+
+Value of CONFIG_PS5169 is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: # CONFIG_PS5169 is not set
+New value: CONFIG_PS5169=y
+
+Value of CONFIG_INPUT_QTI_HAPTICS is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/sm8250-common.config:
+Previous value: CONFIG_INPUT_QTI_HAPTICS=y
+New value: CONFIG_INPUT_QTI_HAPTICS=n
+
+#
+# merged configuration written to /build/preflight/kernel-kconfig-clang12.g9VV2CG6/.config (needs make)
+#
+
+=== merge xiaomi/enuma.config ===
+Using /build/preflight/kernel-kconfig-clang12.g9VV2CG6/.config as base
+Merging /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/enuma.config
+Value of CONFIG_MACH_XIAOMI_ENUMA is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/enuma.config:
+Previous value: # CONFIG_MACH_XIAOMI_ENUMA is not set
+New value: CONFIG_MACH_XIAOMI_ENUMA=y
+
+Value of CONFIG_TOUCHSCREEN_NT36523_HOSTDL_SPI is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/enuma.config:
+Previous value: # CONFIG_TOUCHSCREEN_NT36523_HOSTDL_SPI is not set
+New value: CONFIG_TOUCHSCREEN_NT36523_HOSTDL_SPI=y
+
+Value of CONFIG_TOUCHSCREEN_XIAOMI_TOUCHFEATURE is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/enuma.config:
+Previous value: # CONFIG_TOUCHSCREEN_XIAOMI_TOUCHFEATURE is not set
+New value: CONFIG_TOUCHSCREEN_XIAOMI_TOUCHFEATURE=y
+
+Value of CONFIG_TOUCHSCREEN_SUPPORT_NEW_GAME_MODE is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/enuma.config:
+Previous value: # CONFIG_TOUCHSCREEN_SUPPORT_NEW_GAME_MODE is not set
+New value: CONFIG_TOUCHSCREEN_SUPPORT_NEW_GAME_MODE=y
+
+Value of CONFIG_INPUT_FINGERPRINT is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/enuma.config:
+Previous value: # CONFIG_INPUT_FINGERPRINT is not set
+New value: CONFIG_INPUT_FINGERPRINT=y
+
+Value of CONFIG_IDT_P9418 is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/enuma.config:
+Previous value: # CONFIG_IDT_P9418 is not set
+New value: CONFIG_IDT_P9418=y
+
+Value of CONFIG_DUAL_FUEL_GAUGE_BQ27Z561 is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/enuma.config:
+Previous value: # CONFIG_DUAL_FUEL_GAUGE_BQ27Z561 is not set
+New value: CONFIG_DUAL_FUEL_GAUGE_BQ27Z561=y
+
+Value of CONFIG_BQ2597X_CHARGE_PUMP is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/enuma.config:
+Previous value: # CONFIG_BQ2597X_CHARGE_PUMP is not set
+New value: CONFIG_BQ2597X_CHARGE_PUMP=y
+
+Value of CONFIG_QPNP_FG_GEN4 is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/enuma.config:
+Previous value: CONFIG_QPNP_FG_GEN4=y
+New value: CONFIG_QPNP_FG_GEN4=n
+
+Value of CONFIG_DUAL_BQ2597X is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/enuma.config:
+Previous value: # CONFIG_DUAL_BQ2597X is not set
+New value: CONFIG_DUAL_BQ2597X=y
+
+Value of CONFIG_INPUT_AW8697_HAPTIC is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/enuma.config:
+Previous value: # CONFIG_INPUT_AW8697_HAPTIC is not set
+New value: CONFIG_INPUT_AW8697_HAPTIC=y
+
+Value of CONFIG_TECHPACK_CAMERA_XIAOMI_TABLET is redefined by fragment /build/src/kernel/xiaomi/sm8250/arch/arm64/configs/vendor/xiaomi/enuma.config:
+Previous value: # CONFIG_TECHPACK_CAMERA_XIAOMI_TABLET is not set
+New value: CONFIG_TECHPACK_CAMERA_XIAOMI_TABLET=y
+
+#
+# merged configuration written to /build/preflight/kernel-kconfig-clang12.g9VV2CG6/.config (needs make)
+#
+CONFIG_TOUCHSCREEN_NT36523_HOSTDL_SPI=y
+CONFIG_TOUCHSCREEN_XIAOMI_TOUCHFEATURE=y
+CONFIG_MACH_XIAOMI_ENUMA=y
+08ebfd2ba545501cdb7b07244bc6736af9b40276aab3c44aed58d2e5d10e7838  /build/preflight/kernel-kconfig-clang12.g9VV2CG6/.config
+PASS: kernel config merged with available Clang 12 baseline in /build/preflight/kernel-kconfig-clang12.g9VV2CG6 (not the final ROM compiler).

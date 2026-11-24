@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="enuma-github" fetch="https://github.com/" />
+  <project remote="enuma-github" name="awkox/android_device_xiaomi_enuma" path="device/xiaomi/enuma" revision="555d8599888b185f83b176c1bdc4ec1cdaf79913" upstream="refs/heads/lineage-24.0" />
+  <project remote="enuma-github" name="web1n/android_device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" revision="3c71874002bd93b1c883c946064d5153fc9d7f69" upstream="refs/heads/lineage-24.0-test" />
+  <project remote="enuma-github" name="LineageOS/android_kernel_xiaomi_sm8250" path="kernel/xiaomi/sm8250" revision="6b34d24765327d746074c8e53b5ad0d24a51acc7" upstream="refs/heads/lineage-24.0" />
+  <project remote="enuma-github" name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" revision="7ce268770cbff0a14a4bbb73d88b26b00e967391" upstream="refs/heads/lineage-24.0" />
+  <project remote="enuma-github" name="awkox/android_vendor_xiaomi_enuma" path="vendor/xiaomi/enuma" revision="59ae39ea8576fd93c0c0c7fb99c79b36495d97bf" upstream="refs/heads/lineage-24.0" />
+  <project remote="enuma-github" name="TheMuppets/proprietary_vendor_xiaomi_sm8250-common" path="vendor/xiaomi/sm8250-common" revision="c48b43a4db777a1005f730ca1ff0c14d022055db" upstream="refs/heads/lineage-24.0" />
+  <extend-project name="android_vendor_gms" path="vendor/gms" revision="619534d5a9880377697935d1978d871ec1af71b7" upstream="refs/heads/seventeen" />
+  <extend-project name="android_vendor_lineage" path="vendor/lineage" revision="21a1e29ea7def2a91516570abbaa6f9ffe023517" upstream="refs/heads/seventeen" />
+  <extend-project name="android_vendor_rising" path="vendor/rising" revision="53259d7674f6c595dcc990c1e694284e4e40b187" upstream="refs/heads/seventeen" />
+</manifest>

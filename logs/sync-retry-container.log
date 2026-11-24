@@ -1,0 +1,24 @@
+
+=== sync start 2026-11-23T16:13:38+00:00 ===
+warning: Changing --git-lfs settings will only affect new project checkouts.
+         Existing projects will require manual updates.
+
+repo: Updating release signing keys to keyset ver 2.3
+repo: reusing existing repo client checkout in /build/src
+
+repo has been initialized in /build/src
+Saved manifest to /build/logs/upstream.xml
+device/xiaomi/enuma : awkox/android_device_xiaomi_enuma
+vendor/gms : android_vendor_gms
+vendor/gms-mosey : vendor_gms-mosey
+Retrying only these prior network failures: art build/soong cts dalvik
+Finalizing sync state...
+repo sync has finished successfully.
+Finalizing sync state...
+repo sync has finished successfully.
+Git LFS fsck OK
+Git LFS fsck OK
+vendor/gms/product/packages/privileged_apps/Phonesky/Phonesky.apk 103896900
+vendor/gms/apex/com.google.android.gmssystem.prodvic.apex 146546688
+Saved manifest to /build/logs/resolved-manifest.xml
+=== sync passed 2026-11-23T18:20:42+00:00 ===

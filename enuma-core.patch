@@ -1,0 +1,18 @@
+diff --git a/lineage_enuma.mk b/lineage_enuma.mk
+--- a/lineage_enuma.mk
++++ b/lineage_enuma.mk
+@@ -9,6 +9,14 @@
+ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+ 
++# RisingOS: choose Google Core before evaluating its common tablet product.
++# Keep the device's existing telephony and stylus configuration unchanged.
++WITH_GMS := true
++WITH_MICROG := false
++TARGET_USES_MINI_GAPPS := false
++TARGET_USES_PICO_GAPPS := true
++TARGET_SUPPORTS_QUICK_TAP := false
++
+ # Inherit some common Lineage stuff.
+ $(call inherit-product, vendor/lineage/config/common_full_tablet.mk)
+ 
+ # Inherit from enuma device

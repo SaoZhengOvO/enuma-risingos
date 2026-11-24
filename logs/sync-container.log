@@ -1,0 +1,49 @@
+uid=1000(ubuntu) gid=1000(ubuntu) groups=1000(ubuntu)
+pass
+openjdk version "21.0.13.1" 2026-11-17
+OpenJDK Runtime Environment (build 21.0.13.1+2-1-24.04.1-Ubuntu)
+OpenJDK 64-Bit Server VM (build 21.0.13.1+2-1-24.04.1-Ubuntu, mixed mode, sharing)
+git-lfs/3.4.1 (GitHub; linux amd64; go 1.22.2)
+Filesystem                                               Size  Used Avail Use% Mounted on
+/dev/mapper/trim_d5b81b72_cbec_445e_9a4a_cdbc9ecbba2b-0  1.9T  989G  874G  54% /build
+
+=== sync start 2026-11-23T15:44:19+00:00 ===
+Updating files:  22% (2/9)Updating files:  33% (3/9)Updating files:  44% (4/9)Updating files:  55% (5/9)Updating files:  66% (6/9)Updating files:  77% (7/9)Updating files:  88% (8/9)Updating files: 100% (9/9)Updating files: 100% (9/9), done.
+
+repo has been initialized in /build/src
+Saved manifest to /build/logs/upstream.xml
+error: Unable to fully sync the tree
+error: Downloading network changes failed.
+Failing repos (network):
+art
+build/soong
+cts
+dalvik
+Try re-running with "-j1 --fail-fast" to exit at the first error.
+================================================================================
+Repo command failed due to the following `SyncError` errors:
+GitCommandError: 'fetch --filter=blob:none --quiet rising --prune --recurse-submodules=no --no-tags +refs/heads/seventeen:refs/remotes/rising/seventeen' on android_art failed
+stdout: fatal: unable to access 'https://github.com/RisingOS-Revived/android_art/': Could not resolve host: github.com
+GitCommandError: 'fetch --filter=blob:none --quiet aosp --prune --recurse-submodules=no --no-tags tag android-17.0.0_r1 +refs/tags/android-17.0.0_r1:refs/tags/android-17.0.0_r1' on platform/cts failed
+stdout: fatal: unable to access 'https://android.googlesource.com/platform/cts/': Could not resolve host: android.googlesource.com
+GitCommandError: 'fetch --filter=blob:none --quiet aosp --prune --recurse-submodules=no --no-tags tag android-17.0.0_r1 +refs/tags/android-17.0.0_r1:refs/tags/android-17.0.0_r1' on platform/dalvik failed
+stdout: fatal: unable to access 'https://android.googlesource.com/platform/dalvik/': Could not resolve host: android.googlesource.com
+GitCommandError: 'fetch --filter=blob:none --quiet rising --prune --recurse-submodules=no --no-tags +refs/heads/seventeen:refs/remotes/rising/seventeen' on android_build_soong failed
+stdout: fatal: unable to access 'https://github.com/RisingOS-Revived/android_build_soong/': Could not resolve host: github.com
+device/qcom/sepolicy: Shared project LineageOS/android_device_qcom_sepolicy found, disabling pruning.
+device/qcom/sepolicy_vndr/legacy-um: Shared project LineageOS/android_device_qcom_sepolicy_vndr found, disabling pruning.
+hardware/qcom-caf/msm8953/audio: Shared project LineageOS/android_hardware_qcom_audio found, disabling pruning.
+hardware/qcom-caf/msm8953/display: Shared project LineageOS/android_hardware_qcom_display found, disabling pruning.
+hardware/qcom-caf/msm8953/media: Shared project LineageOS/android_hardware_qcom_media found, disabling pruning.
+hardware/qcom-caf/sm8150/display: Shared project hardware_qcom_display found, disabling pruning.
+hardware/qcom-caf/sm8450-6.6/audio/agm: Shared project LineageOS/android_vendor_qcom_opensource_agm found, disabling pruning.
+hardware/qcom-caf/sm8450-6.6/dataipa: Shared project LineageOS/android_vendor_qcom_opensource_dataipa found, disabling pruning.
+hardware/qcom-caf/sm8450-6.6/display/core: Shared project LineageOS/android_vendor_qcom_opensource_display-core found, disabling pruning.
+hardware/qcom-caf/sm8450-6.6/display/intf: Shared project LineageOS/android_vendor_qcom_opensource_display-intf found, disabling pruning.
+hardware/qcom-caf/sm8450/audio/graphservices: Shared project LineageOS/android_vendor_qcom_opensource_audioreach-graphservices found, disabling pruning.
+hardware/qcom-caf/sm8450/audio/pal: Shared project LineageOS/android_vendor_qcom_opensource_arpal-lx found, disabling pruning.
+hardware/qcom-caf/sm8450/data-ipa-cfg-mgr: Shared project LineageOS/android_vendor_qcom_opensource_data-ipa-cfg-mgr found, disabling pruning.
+hardware/qcom-caf/sm8550/audio/primary-hal: Shared project LineageOS/android_hardware_qcom_audio-ar found, disabling pruning.
+hardware/qcom-caf/thermal: Shared project LineageOS/android_hardware_qcom_thermal found, disabling pruning.
+hardware/qcom/wlan: Shared project LineageOS/android_hardware_qcom_wlan found, disabling pruning.
+vendor/qcom/opensource/audio-hal/st-hal-ar: Shared project LineageOS/android_vendor_qcom_opensource_audio-hal_st-hal-ar found, disabling pruning.

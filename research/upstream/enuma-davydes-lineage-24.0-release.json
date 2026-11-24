@@ -1,0 +1,82 @@
+{
+  "source": "https://api.github.com/repos/davydes/device_xiaomi_enuma/releases/tags/LOS24.0_20261116",
+  "html_url": "https://github.com/davydes/device_xiaomi_enuma/releases/tag/LOS24.0_20261116",
+  "tag_name": "LOS24.0_20261116",
+  "published_at": "2026-11-15T20:22:15Z",
+  "prerelease": false,
+  "body": "Реализована новая возможность. Совместное прослушивание через две пары BT наушников (кодек AAC\\SBC). При включении фичи стек переходит на програмное кодирование. Лучше выключать фичу если не нужна. Включается в разделе привязки BT устройств.\n\nLineageOS 24.0 — `lineage-24.0-20261115-UNOFFICIAL-enuma.zip`\nSecurity patch: 2026-11-01",
+  "assets": [
+    {
+      "name": "boot.img",
+      "size": 201326592,
+      "digest": "sha256:fc46a760c289427102bf51f8dd494a8a5c940786c4e6e486d7773e8eec9a1c54",
+      "browser_download_url": "https://github.com/davydes/device_xiaomi_enuma/releases/download/LOS24.0_20261116/boot.img"
+    },
+    {
+      "name": "dtbo.img",
+      "size": 33554432,
+      "digest": "sha256:eda923ae11f0dba01a7094c3675fd606472aed6f150c7875366b33d8910ca199",
+      "browser_download_url": "https://github.com/davydes/device_xiaomi_enuma/releases/download/LOS24.0_20261116/dtbo.img"
+    },
+    {
+      "name": "lineage-24.0-20261115-UNOFFICIAL-enuma.zip",
+      "size": 1487177511,
+      "digest": "sha256:e34304e2c3a55e591d7681ab17971e84964d26e994155e0ddcf50ebf8413f945",
+      "browser_download_url": "https://github.com/davydes/device_xiaomi_enuma/releases/download/LOS24.0_20261116/lineage-24.0-20261115-UNOFFICIAL-enuma.zip"
+    },
+    {
+      "name": "odm.img",
+      "size": 892928,
+      "digest": "sha256:0c299397650150257712f8b67b0d6b7137c3a6323ad4aaa4b07fc75647034509",
+      "browser_download_url": "https://github.com/davydes/device_xiaomi_enuma/releases/download/LOS24.0_20261116/odm.img"
+    },
+    {
+      "name": "product.img",
+      "size": 532750688,
+      "digest": "sha256:e1956f55576e6fccc58d0d651e3461aa167d0c4ead12f7f97c05ac499ecabd36",
+      "browser_download_url": "https://github.com/davydes/device_xiaomi_enuma/releases/download/LOS24.0_20261116/product.img"
+    },
+    {
+      "name": "super_empty.img",
+      "size": 5080,
+      "digest": "sha256:566bc60388257b4910d90e573697d0ac938fd8d85f93f30c84bd2ec7e92076ed",
+      "browser_download_url": "https://github.com/davydes/device_xiaomi_enuma/releases/download/LOS24.0_20261116/super_empty.img"
+    },
+    {
+      "name": "system.img",
+      "size": 1064911272,
+      "digest": "sha256:3030ebe0be2907e2626f56565d5a60f83d3deb49f063291e1b880b1fcb6c7544",
+      "browser_download_url": "https://github.com/davydes/device_xiaomi_enuma/releases/download/LOS24.0_20261116/system.img"
+    },
+    {
+      "name": "system_ext.img",
+      "size": 514126104,
+      "digest": "sha256:7e7e9491e3907d4dcb68f872de72433016148b04ce447b2ac8f294fd3fcef991",
+      "browser_download_url": "https://github.com/davydes/device_xiaomi_enuma/releases/download/LOS24.0_20261116/system_ext.img"
+    },
+    {
+      "name": "vbmeta.img",
+      "size": 65536,
+      "digest": "sha256:cc399333dd956654e5c2db0c8067b4d34f2545d4c503c80242fc1499461333bb",
+      "browser_download_url": "https://github.com/davydes/device_xiaomi_enuma/releases/download/LOS24.0_20261116/vbmeta.img"
+    },
+    {
+      "name": "vbmeta_system.img",
+      "size": 65536,
+      "digest": "sha256:d26c1cae8723474988999d6be58372b10fd7d7dda4b53ba453a1542568ab15c9",
+      "browser_download_url": "https://github.com/davydes/device_xiaomi_enuma/releases/download/LOS24.0_20261116/vbmeta_system.img"
+    },
+    {
+      "name": "vendor.img",
+      "size": 805318656,
+      "digest": "sha256:f9011b8a4a3ea916adab15a55f7a1631c71818fed4a1a6840bb84694810e3288",
+      "browser_download_url": "https://github.com/davydes/device_xiaomi_enuma/releases/download/LOS24.0_20261116/vendor.img"
+    },
+    {
+      "name": "vendor_boot.img",
+      "size": 100663296,
+      "digest": "sha256:03140d5a6d02e25f345614619cd241bc534dcae8d4030e5c45ea08805bbfd4db",
+      "browser_download_url": "https://github.com/davydes/device_xiaomi_enuma/releases/download/LOS24.0_20261116/vendor_boot.img"
+    }
+  ]
+}

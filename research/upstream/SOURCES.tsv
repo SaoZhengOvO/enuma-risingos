@@ -1,0 +1,11 @@
+archive	bytes	repository	branch	commit
+enuma-lineage-23.2-f1e8a3962ad3.tar.gz	74076	davydes/device_xiaomi_enuma	lineage-23.2	f1e8a3962ad3c53c8ac2a09506012106a3723248
+enuma-lineage-24.0-555d8599888b.tar.gz	73953	awkox/android_device_xiaomi_enuma	lineage-24.0	555d8599888b185f83b176c1bdc4ec1cdaf79913
+elish-lineage-23.2-7635d7a6496f.tar.gz	1051737	web1n/android_device_xiaomi_elish	lineage-23.2	7635d7a6496f3077c7a91ccdfa607462c9e540ab
+elish-lineage-24.0-23e652dde3a1.tar.gz	1051175	web1n/android_device_xiaomi_elish	lineage-24.0	23e652dde3a1b1a2f6f6ff3f7e088d3f6c814772
+enuma-lineage-22.2-wip-cff0f4a25bb8.tar.gz	1052099	xiaomi-enuma-dev/android_device_xiaomi_elish_enuma	lineage-22.2-wip-enuma	cff0f4a25bb87faa860af80892b07f6549ff762e
+sm8250-common-23.2-test-06ae5834f05e.tar.gz	8628737	web1n/android_device_xiaomi_sm8250-common	lineage-23.2-test	06ae5834f05ed40e7e29f82547b9133a2e665cfd
+rising-manifest-sixteen-qpr2-aab25d3e1277.tar.gz	20295	RisingOS-Revived/android	sixteen-qpr2	aab25d3e1277f20b64a31ca74c94a33abf5d0bf6
+rising-manifest-seventeen-ecb587a4b0d3.tar.gz	22014	RisingOS-Revived/android	seventeen	ecb587a4b0d36e65a3eb795c9b92cbbafa58ccce
+rising-pipa-reference-5ccd59531b8b.tar.gz	54926	RisingOS-Revived-Devices/android_device_xiaomi_pipa	16.0	5ccd59531b8b6dc486e7de410f6cc2697527927c
+enuma-davydes-lineage-24.0-b5bbdf63c9ae.tar.gz	74699	davydes/device_xiaomi_enuma	lineage-24.0	b5bbdf63c9ae87a9d199a1a898d88d27b3c8136c
